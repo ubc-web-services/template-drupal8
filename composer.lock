@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c11191dea11b70ac74d023ffa9bb38c9",
+    "content-hash": "fd16b0e0535dc7f4231b5ec821ca53d9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5087,6 +5087,31 @@
             "time": "2018-11-04T18:18:53+00:00"
         },
         {
+            "name": "ubc-web-services/ubc_ckeditor_widgets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ubc-web-services/ubc_ckeditor_widgets.git",
+                "reference": "63c64fe30c6500dcf92c29fc352bed8f1e9e9483"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ubc-web-services/ubc_ckeditor_widgets/zipball/63c64fe30c6500dcf92c29fc352bed8f1e9e9483",
+                "reference": "63c64fe30c6500dcf92c29fc352bed8f1e9e9483",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "O'Toole, James",
+                    "email": "james.otoole@ubc.ca"
+                }
+            ],
+            "description": "A Drupal 8 module to add some common widgets to CKeditor",
+            "time": "2018-03-19 18:51:45"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.5.1",
             "source": {
@@ -5544,7 +5569,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2018-06-24T20:08:51+00:00"
+            "time": "2018-06-24 20:08:51"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -5716,7 +5741,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-10-10T12:39:06+00:00"
+            "time": "2018-10-10 12:39:06"
         },
         {
             "name": "doctrine/instantiator",
@@ -7654,7 +7679,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "ubc-web-services/ubc_ckeditor_widgets": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

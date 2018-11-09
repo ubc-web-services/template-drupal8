@@ -23,6 +23,7 @@
         "drupal/core": "^8.6.0",
         "drush/drush": "^9.0.0",
         "ubc-web-services/clf": "^1.0",
+        "ubc-web-services/ubc_ckeditor_widgets": "dev-master",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
