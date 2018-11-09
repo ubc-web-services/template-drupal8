@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "74c4532ede127eeaee83a670c07112b5",
+    "content-hash": "c11191dea11b70ac74d023ffa9bb38c9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5032,6 +5032,59 @@
                 "templating"
             ],
             "time": "2018-07-13T07:12:17+00:00"
+        },
+        {
+            "name": "ubc-web-services/clf",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ubc-web-services/clf.git",
+                "reference": "9e859b194dac2d2b0738faf4a92daf7f79dceb26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ubc-web-services/clf/zipball/9e859b194dac2d2b0738faf4a92daf7f79dceb26",
+                "reference": "9e859b194dac2d2b0738faf4a92daf7f79dceb26",
+                "shasum": ""
+            },
+            "require": {
+                "ubc-web-services/galactus": "1.0.*"
+            },
+            "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "O'Toole, James",
+                    "email": "james.otoole@ubc.ca"
+                }
+            ],
+            "description": "A Drupal 8 UBC CLF 7.0.4 Child theme for Galactus",
+            "time": "2018-11-03T22:30:55+00:00"
+        },
+        {
+            "name": "ubc-web-services/galactus",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ubc-web-services/galactus.git",
+                "reference": "91cc95ad2ec095e8ad5d43b383f0657dca789a89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ubc-web-services/galactus/zipball/91cc95ad2ec095e8ad5d43b383f0657dca789a89",
+                "reference": "91cc95ad2ec095e8ad5d43b383f0657dca789a89",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "O'Toole, James",
+                    "email": "james.otoole@ubc.ca"
+                }
+            ],
+            "description": "A Drupal 8 UBC CLF 7.0.4 theme",
+            "time": "2018-11-04T18:18:53+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
