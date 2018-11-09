@@ -24,3 +24,6 @@
 
 # Ignore .DS_Store files from OSX
 /.DS_Store
+
+# Ignore databse dumps from platform
+*--dump.sql
