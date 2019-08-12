@@ -1,0 +1,4 @@
+name: sitename
+recipe: drupal8
+config:
+  webroot: _www

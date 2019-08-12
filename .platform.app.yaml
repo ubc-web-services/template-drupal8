@@ -80,10 +80,15 @@ web:
             # Deny access to static files in this location.
             allow: false
 
+            # Add some default headers.
+            headers:
+                X-Frame-Options: SAMEORIGIN
+                X-Content-Type-Options: nosniff
+
             # Rules for specific URI patterns.
             rules:
                 # Allow access to common static files.
-                '\.(jpe?g|png|gif|svgz?|css|js|map|ico|bmp|eot|woff2?|otf|ttf)$':
+                '\.(jpe?g|png|gif|svgz?|css|js|map|pdfx?|docx?|xlsx?|mov|mp4|mp3|ico|bmp|eot|woff2?|otf|ttf)$':
                     allow: true
                 '^/robots\.txt$':
                     allow: true
